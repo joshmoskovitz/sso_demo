@@ -13,7 +13,7 @@
         <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
       <% end %>
     </div>
-    <fieldset>
+    <div>
       <p>Leave these fields blank if you don't want to change your password.</p>
       <div class="form-group">
         <%= f.label :password %>
@@ -23,14 +23,14 @@
         <%= f.label :password_confirmation %>
         <%= f.password_field :password_confirmation, class: 'form-control' %>
       </div>
-    </fieldset>
-    <fieldset>
+    </div>
+    <div>
       <p>You must enter your current password to make changes.</p>
       <div class="form-group">
         <%= f.label :current_password %>
         <%= f.password_field :current_password, class: 'form-control' %>
       </div>
-    </fieldset>
+    </div>
     <%= f.submit 'Update', :class => 'button right' %>
   <% end %>
 </div>

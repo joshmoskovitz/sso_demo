@@ -31,6 +31,7 @@ img {
   @extend .btn-primary;
   @extend .btn-lg;
   }
+
 // apply styles to HTML elements
 // to make views framework-neutral
 body{
@@ -59,6 +60,7 @@ section {
   max-width: 320px;
   margin: 0 auto;
 }
+
 .authform form {
   padding-bottom: 40px;
   background-color: #2e343f
