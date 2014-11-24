@@ -15,7 +15,7 @@ Rails.application.routes.draw do
     delete "sign_out", to: "devise/sessions#destroy", as: :sign_out
   end  
   
-  devise_for :users
+  devise_for :users, :controllers => { registrations: 'registrations' }
   
   resources :users
   
