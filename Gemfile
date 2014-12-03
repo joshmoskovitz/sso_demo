@@ -11,6 +11,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise'
+gem 'pg'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
@@ -23,7 +24,6 @@ group :development, :test do
   gem 'rspec-rails'
 end
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
 group :test do
@@ -32,5 +32,3 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
-
-gem 'rails_12factor', group: :production
