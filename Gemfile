@@ -10,7 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
-gem 'devise', :require=> 'devise'
+gem 'devise'
 gem 'pg'
 gem 'figaro'
 group :development do
