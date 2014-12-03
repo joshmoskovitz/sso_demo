@@ -1,17 +1,18 @@
-class Sessions::SessionsController < Devise::SessionsController
+# class Sessions::SessionsController < Devise::SessionsController
 
-  # GET /resource/sign_in
-  def new
-    super
-  end
+#   # GET /resource/sign_in
+#   def new
+#     super
+#   end
 
-  # POST /resource/sign_in
-  def create
-    super
-  end
+#   # POST /resource/sign_in
+#   def create
+#     super
+#   end
 
-  # DELETE /resource/sign_out
-  def destroy
-    super
-  end
-end
+#   # DELETE /resource/sign_out
+#   def destroy
+#     super
+#   end
+  
+# end
