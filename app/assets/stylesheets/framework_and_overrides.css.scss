@@ -24,6 +24,18 @@ iframe {
     border: none;
 }
 
+scott_checkbox {
+  position: absolute;
+  margin-top: 4px \9;
+}
+
+.scott_checkbox label {
+  padding-left: 5px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
 // to make views framework-neutral
