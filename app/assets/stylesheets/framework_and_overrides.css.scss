@@ -59,12 +59,12 @@ scott_checkbox {
 // apply styles to HTML elements
 // to make views framework-neutral
 body{
-  background: #2e343f;
+  background: #ccc;
 }
 
 main {
   @extend .container;
-  background-color: #2e343f;
+  background-color: #25a5fe;
   padding-bottom: 80px;
   color:#fff;
   margin-top: 51px; // accommodate the navbar
